@@ -1,0 +1,81 @@
+.app {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('./img11.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: auto;
+  }
+  
+  input[type="text"], input[type="password"] {
+    height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+
+  .button-container {
+    align-items: center;
+  }
+  
+  .login-form {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  .id_btn{
+    background-color: #5600ff;
+    border: none;
+    color: #fff;
+    width:96%;
+    height: 6vh;
+    margin-top: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .reg_btn{
+    background-color: 3#fff;
+    border: 2px solid #222;
+    color: #222;
+    width:96%;
+    height: 6vh;
+    margin-top: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .input_text{
+    width: 500px;
+    height: 60px;
+  }
+  @media (max-width: 600px) {
+    .form-email {
+      width: 70%;
+    }
+  }
+  

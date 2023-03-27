@@ -1,0 +1,131 @@
+.root{
+     display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    /* background-color: #d2d6e7;    */
+   }
+   .container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+   }
+   
+  
+   .home_text
+   {
+       color: #6920fa;
+       font-size: 3rem;
+       font-weight: 600;
+       font-family: 'Poppins', sans-serif;
+    }
+   .home_p
+   {
+       color:#222;
+       font-size: 3rem;
+       font-weight: 600;
+       font-family: 'Poppins', sans-serif;
+       line-height: 5rem;
+   }
+   .home-img{
+    width: 90%;
+   }
+   .home-para{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   }
+   .home_btns{
+       display: flex;
+       padding-top: 2rem;
+   
+   }
+   .home-btn-one {
+       padding: 10px 45px;
+       border: none;
+       color: #fff;
+       background-color: #6415ff;
+       display: flex;
+       align-items: center;
+       margin-right: 3rem;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 1rem;
+   }
+   .home-btn-one:hover{
+    background-color:#196bb4;
+    transition: 0.5s;
+
+   }
+   .home-btn-two{
+    padding: 12px 30px;
+    border: none;
+    color: #222;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+   cursor: pointer;
+   border-radius: 5px;
+   background-color: #ffff;
+   font-size: 1.3rem;
+   }
+   .home-btn-two:hover{
+    background-color: grey;
+    transition: 0.5s;
+    color: #fff;
+   }
+   .home_icon{
+    margin-right: 1rem;
+   }
+    /* Media Quires start here */
+@media screen and (max-width: 1101px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .home-img{
+        width: 80%;
+        padding-left: 4rem;
+    }
+    .home_text
+   {
+       color: #6920fa;
+       font-size: 2rem;
+       font-weight: 600;
+       font-family: 'Poppins', sans-serif;
+    }
+   .home_p
+   {
+       color:#222;
+       font-size: 2rem;
+       font-weight: 600;
+       font-family: 'Poppins', sans-serif;
+       line-height: 3rem;
+   }
+  }
+  @media screen and (max-width: 554px){
+    .home-btn-one {
+        padding: 10px 25px; 
+        margin-right: 3rem;
+       
+    }
+    .home-btn-two{
+     padding: 12px 25px;
+    font-size: 1.3rem;
+    }
+  }
+  @media screen and (max-width: 463px){
+    .home-btn-one {
+        padding: 5px 15px; 
+        margin-right: 2rem;
+       
+    }
+    .home-btn-two{
+     padding: 5px 15px;
+    }
+  }
