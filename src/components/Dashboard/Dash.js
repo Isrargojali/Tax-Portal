@@ -6,7 +6,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
 import List from "@mui/material/List";
 import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -61,7 +60,7 @@ export default function ClippedDrawer() {
                   <Menu {...bindMenu(popupState)}>
                     <MenuItem onClick={popupState.close}>Profile</MenuItem>
                     <MenuItem onClick={popupState.close}>My account</MenuItem>
-                    <MenuItem onClick={popupState.close}>Logout</MenuItem>
+                    <MenuItem  onClick={() => navigate("/")}>Logout</MenuItem>
                   </Menu>
                 </React.Fragment>
               )}
@@ -138,7 +137,7 @@ export default function ClippedDrawer() {
         </div>
         <div className="dash-form">
           <div className="dash-content">
-            <div className="border-one">
+            <div className="border-one" onClick={() => navigate("/dashtwo")}>
               <p className="border-text">Filing Status</p>
               <ArrowForwardIosIcon className="aarow-icon" />
             </div>
@@ -179,9 +178,9 @@ export default function ClippedDrawer() {
               <ArrowForwardIosIcon />
             </div>
           </div>
-          <div className="dash_button">
+          {/* <div className="dash_button">
             <button className="dash-btn">View All</button>
-          </div>
+          </div> */}
         </div>
       </Box>
     </Box>

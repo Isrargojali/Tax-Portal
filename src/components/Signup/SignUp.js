@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
+import NavTop from "../Navbar/NavTop";
 import "./Signup.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    <NavTop/>
     <div className="app">
       <div className="login-form">
         <div className="title">Welcome to taxSlayer  Portal</div>

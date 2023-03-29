@@ -25,6 +25,7 @@
 .border-one:hover{
     background-color: #5500ff;
     color: #fff; 
+    transition: 0.5s
 }
 .border-one p:hover{
     color: #fff;
@@ -107,7 +108,7 @@
     color: #5500ff;
 }
 .icon-logout{
-    margin-top: 16rem !important;
+    margin-top: 15rem !important;
 }
 .notification_icon{
     color: #5500ff;

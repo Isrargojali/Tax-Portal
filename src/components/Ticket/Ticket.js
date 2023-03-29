@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Ticket.css';
 import { useNavigate } from "react-router-dom";
-import Navbar from '../Navbar/Navbar';
+import NavTop from '../Navbar/NavTop';
 function Form() {
   const navigate = useNavigate();
 
@@ -22,7 +22,7 @@ function Form() {
 
   return (
     <>
-    <Navbar/>
+    <NavTop/>
     <div className='main_section'>
    <button className='form-button' onClick={() => navigate('/login')}>Back</button>
     <form className="form" onSubmit={handleSubmit}>

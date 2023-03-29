@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
-import { Spin as Hamburger } from "hamburger-react";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -32,9 +31,7 @@ function Navbar() {
                 Sign Up
               </button>
             </div>
-            {/* <div>
-              <Hamburger toggled={isOpen} toggle={setOpen} />
-            </div> */}
+          
           </nav>
        
     </div>

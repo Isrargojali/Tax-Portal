@@ -2,7 +2,9 @@ import React from 'react'
 import "./Footer.css"
 import CallIcon from '@mui/icons-material/Call';
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
-
+import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 function Footer() {
   return (
     <div className='footer_root'>
@@ -47,13 +49,23 @@ function Footer() {
         </div>
        
     </div>
-   <div className="footer_line"></div>
-   <div className='footer_last'>
+    <div className='footer_last'>
   <p className='last-p'>Follow Us</p>
-  <img src="./Assets/facebook.png" alt="" />
-  <img src="./Assets/linkedin.png" alt="" />
-  <img src="./Assets/instagram.png" alt="" />
-  <img src="./Assets/youtube.png" alt="" />
+  <FacebookSharpIcon className='footer-icon-last'/>
+  <InstagramIcon className='footer-icon-last'/>
+  <TwitterIcon className='footer-icon-last'/>
+   </div>
+   <div className="footer_line"></div>
+   <div className='footer-copyright'>
+   <div>
+    <p className='copyright'>2022 ©Taxslayer Portal</p>
+   </div>
+   <div className='fooert_news'>
+    <p  className='footer_last_text'>About</p>
+    <p className='footer_last_text'>News</p>
+    <p className='footer_last_text'>Contact</p>
+    <p className='footer_last_text'>Privacy Policy</p>
+   </div>
    </div>
     </div>
   )
