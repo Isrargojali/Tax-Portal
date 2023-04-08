@@ -22,7 +22,7 @@ function Footer() {
       
         </div>
         <div className="footer_text">
-            <h2 className='footer-heding-two'>Taxslayer Portal</h2>
+            <h4 className='footer-heding-two'>Taxslayer Portal</h4>
             <p className='footer-text-list'>Vission</p>
             <p className='footer-text-list'>Mission</p>
             <p className='footer-text-list'>About Us</p>
@@ -56,17 +56,6 @@ function Footer() {
   <TwitterIcon className='footer-icon-last'/>
    </div>
    <div className="footer_line"></div>
-   <div className='footer-copyright'>
-   <div>
-    <p className='copyright'>2022 ©Taxslayer Portal</p>
-   </div>
-   <div className='fooert_news'>
-    <p  className='footer_last_text'>About</p>
-    <p className='footer_last_text'>News</p>
-    <p className='footer_last_text'>Contact</p>
-    <p className='footer_last_text'>Privacy Policy</p>
-   </div>
-   </div>
     </div>
   )
 }

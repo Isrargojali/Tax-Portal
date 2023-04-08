@@ -1,117 +1,120 @@
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: #2a7cc7;
+}
 
-.main_div{
+.header .navbar {
     display: flex;
-    justify-content: space-evenly;
-    height: 10vh;
-    background-color: #6415ff;
+    justify-content: space-between;
     align-items: center;
-}
-.nav-logo{
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
-   font-weight: 600;
-}
-ul li {
-    list-style: none;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
 }
 
-
-ul li a {
+.header .nav-menu a {
+    color: #ffffff;
     text-decoration: none;
-    list-style: none;
-    padding-left: 2rem;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
 }
-.button-one{
+
+.header .navbar img {
+    width: 250px;
+    height: auto;
+}
+
+.header .nav-menu {
+    display: flex;
+}
+
+.header .nav-item {
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.hamburger {
+    display: none;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.nav-button{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 1rem;
-    color: #6415ff;
-    font-size: 1rem;
+    margin-top: 8px;
     cursor: pointer;
-
+    color: #2a7cc7;
 }
-.button-two{
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;  
-    color: #6415ff;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.mobile{
-    display: none;
-}
-
-/* Media Quires start here */
-@media screen and (max-width: 820px) {
-    .button-one{
-        padding: 7px 15px;
-        margin-right: 1rem;
+@media screen and (max-width:940px) {
+    .header {
+        max-width: 100%;
+        background-color: #2a7cc7;
     }
-    .button-two{
-        border: none;
-        padding: 7px 15px;
-        border-radius: 5px;  
-        color: #6415ff;
-        font-size: 1rem;
+
+    .header .navbar {
+        max-width: 100%;
     }
-  }
-  @media screen and (max-width: 787px){
-    ul li a
-    {
-        padding-left: 1rem;
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        flex-direction: column;
+        background-color: rgba(0,0,0,.9);
+        width: 100%;
+        height: 90vh;
+        z-index: 999;
+        text-align: center;
+        transition: .3s;
         
     }
-  }
-  @media screen and (max-width: 734px){
-    .button-one{
-        padding: 5px 10px;
-        margin-right: 1rem;
+
+    .nav-menu.active {
+        left: 0;
     }
-    .button-two{
-        padding: 5px 10px;
+
+    .nav-item {
+        margin: 1.5rem 0;
     }
-    .nav-logo{
-        font-size: 1.5rem;
-       font-weight: 400;
+
+    .header .navbar img {
+        width: 150px;
     }
-  }
-  @media screen and (max-width: 798px){
-    .button-one{
-        padding: 5px 10px;
-        margin-right: 1rem;
-    }
-    .button-two{
-        padding: 5px 10px;
-    }
-    .nav-logo{
-        font-size: 1.5rem;
-       font-weight: 400;
-    }
-  }
-  @media screen and (max-width: 727px){
-    ul li a
-    {
- display: none;        
-    }
-  }
-  @media screen and (max-width: 445px){
-    .nav-logo{
-        font-size: 1.5rem;       
-    }
-  }
-  @media screen and (max-width: 376px){
-    .button-one{
-        padding: 5px 10px;
-        margin-right: 1rem;
-    }
-    .button-two{
-        padding: 5px 10px;
-    }
- 
-  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,6 +21,7 @@ import "./Dash.css";
 import { useNavigate } from "react-router-dom";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import SearchIcon from "@mui/icons-material/Search";
+import GridViewIcon from '@mui/icons-material/GridView';
 const drawerWidth = 240;
 
 export default function ClippedDrawer() {
@@ -80,6 +81,7 @@ export default function ClippedDrawer() {
         }}
       >
         <Toolbar />
+       
         <Box sx={{ overflow: "auto" }}>
           <List>
             {["Account", "Setting", "Notification", "Support"].map(

@@ -1,0 +1,91 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .app-bar {
+    background-color: #dbece9;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+  }
+  
+  .app-bar nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  .app-bar-two{
+    background-color: #5011cc;
+    color: white;
+    padding: 10px;
+   margin-top: 3.5rem;
+  }
+  .app-bar-two nav {
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+  }
+  .app-bar li {
+    list-style: none;
+  }
+  
+  .sidebar {
+    background-color: #eee;
+    width: 200px;
+    height: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  /* .main-content {
+    flex: 1;
+    display: flex;
+  } */
+  
+  .dash-two-content{
+   padding: 50px;
+  }
+  
+.sidebar {
+    background-color: #fff;
+    width: 200px;
+    height: 100%;
+}
+.dash-two-t{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #5500ff;
+    padding: 0 1rem 0 1rem;
+    border-radius: 5px;
+}
+.sidebar-P{
+  border-bottom: 1px solid #222;
+  padding-bottom: 1rem;
+  border-right: 1px solid black;
+}
+.sidebar-P:hover{
+  background-color: #5011cc;
+  color: #fff;
+}
+.dash-two-logout{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-right:  1px solid black;
+  border-bottom:  1px solid black;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}

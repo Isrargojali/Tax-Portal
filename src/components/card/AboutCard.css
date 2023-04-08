@@ -1,0 +1,99 @@
+
+.about_section {
+  display: flex;
+  justify-content:center;
+  position: relative;
+  bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.about_img {
+  width: 16%;
+}
+.about_card {
+  text-align: start;
+  width: 15rem;
+  padding: 2rem 1rem 3rem;
+  border-radius: 5px;
+  box-shadow: 10px 5px 10px 10px #00000041;
+  background-color: #fff;
+  margin: 1rem 0 0 1rem;
+  cursor: pointer;
+}
+
+.about_card:hover {
+  background-color: #50B9E8 !important;
+  transition: 0.5s;
+}
+
+.about_card h1 {
+  font-size: 1.4rem;
+  line-height: 30px;
+  color: #000;
+  font-weight: 600;
+}
+.about_card p {
+  font-size: 1rem;
+  line-height: 20px;
+  color: #000;
+}
+.card_button {
+  padding: 8px 30px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #c0dbea;
+  font-weight: 400;
+  cursor: pointer;
+  color: #4a8fcf;
+  margin-top: 1rem;
+}
+.card_button:hover {
+  background-color: #2a7cc7;
+  color: #fff;
+}
+.card_heading{
+  padding-bottom: 1rem;
+}
+.dollar{
+  padding-top: 1rem;
+}
+/* About content section css start here */
+.content-container{
+    padding: 1rem 5rem 3rem 5rem;
+     
+}
+.about_content
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content-one{
+    text-align: start;
+    background-color: #fff;
+    cursor: pointer;
+}
+.content-text{
+    text-align: center;
+    font-size: 2rem;
+    font-weight:600;
+    padding: 1rem 0 1rem 0;
+}
+.content-two{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:400;
+    padding: 0 0 2rem 0;
+
+}
+.content_para{
+  padding-bottom: 3rem;
+  font-weight: 400;
+  font-size: 13px;
+}
+.content_heading{
+  font-size: 1rem;
+  font-weight: 600;
+}

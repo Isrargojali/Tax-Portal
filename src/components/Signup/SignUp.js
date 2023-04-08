@@ -1,36 +1,59 @@
-import React from "react";
+import React, { useState } from 'react';
+import "./Signup.css"
 import { useNavigate } from "react-router-dom";
-import NavTop from "../Navbar/NavTop";
-import "./Signup.css";
 
-function App() {
+function SignupForm() {
   const navigate = useNavigate();
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handlePasswordChange = (event) => {
+    setPassword(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // handle form submission logic here
+  };
 
   return (
     <>
-    <NavTop/>
-    <div className="app">
-      <div className="login-form">
-        <div className="title">Welcome to taxSlayer  Portal</div>
-        <div className="form-email">
-      <form>
-        <div className="input-container">
-          <label>Email</label>
-          <input className="input_text" type="email"  placeholder="email" />
-        </div>
-        <div className="input-container">
-          <label>Password</label>
-          <input className="input_text" type="password" placeholder="Password"  />
-        </div>
-        <div className="button-container">
-          <button className="id_btn" onClick={() => navigate('/dash')}>LOG IN</button>
-          <button className="reg_btn" onClick={() => navigate('/register')}>Register</button>
-        </div>
-      </form>
-    </div>
+    <button className='back_button'  onClick={() => navigate('/')}>Back</button>
+    <div className="container">
+      <div className="signup-container">
+        <h2>Sign Up</h2>
+        <form onSubmit={handleSubmit}>
+          <label>
+            Email:
+            <input
+            className='sign-email'
+            type="email"
+              value={email}
+              onChange={handleEmailChange}
+              required
+              />
+          </label>
+          <label>
+            Password:
+            <input
+            className='sign-email'
+            type="password"
+            value={password}
+            onChange={handlePasswordChange}
+            required
+            />
+          </label>
+          <button className='sign_buttton'>Sign Up</button>
+          <button className='reg-button' onClick={() => navigate('/register')}>Register</button>
+        </form>
       </div>
     </div>
-    </>
-  );}
-
-export default App;
+            </>
+  );
+}
+export default SignupForm

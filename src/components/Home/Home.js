@@ -1,32 +1,35 @@
-import React from 'react'
-import Navbar from '../Navbar/Navbar';
-import PlayCircleIcon from '@mui/icons-material/PlayCircle';
-import "./Home.css"
-function Home() {
-  return (
-  <>
-  <Navbar/>
-    <div className='container'>
-    <div className='root'>
-     <div className='home_border'>
-      <p className='home_p'>Pay Tax Any Where  <br/> <span className='home_text'>Any Times </span></p>
-      <p className='home-para'>Our Services are free and will help you in all</p>
-     </div> 
-     {/* NAV BUTTONS */}
-    <div className='home_btns'> 
-    
-    <button className='home-btn-one'>Continue</button>
-    <button className='home-btn-two'><PlayCircleIcon/> Play Video</button>
-   
-    </div>
-    </div>
-    <div className="second-div">
-    <img className='home-img' src="./Assets/home.png" alt="home" />
+import React from "react";
+import Navbar from "../Navbar/Navbar";
+import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import Grid from '@mui/material/Grid';
+import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
-    </div>
-    </div>
-  </>
-  )
+function Home() {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <Navbar />
+      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} alignItems="center" justifyContent="center" style={{marginTop:"5rem"}} className="home-bag">
+        <Grid item lg={5}>
+        <p className="home_p">
+              Pay Tax Any Where <br />{" "}
+              <span className="home_text">Any Time </span>
+            </p>
+            <p className="home-para">
+              Our Services are free and will help you in all
+            </p>
+            <button className="home-btn-two" onClick={() => navigate('/video')}>
+            <PlayCircleIcon /> Play Video
+          </button>
+        </Grid>
+        <Grid item lg={5}>
+        <img className="home-img" src="./Assets/wome.png" alt="home" />
+        </Grid>
+      </Grid>
+    </>
+  );
 }
 
-export default Home
+export default Home;
