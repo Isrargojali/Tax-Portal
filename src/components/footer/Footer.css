@@ -1,5 +1,5 @@
 .footer_root{
-    background-color: #fbfbfc;
+    background-color:#edf2f7;
 
 }
 
@@ -23,15 +23,17 @@
     border: none;
     border-radius: 5px;
     margin-left: 1rem;
+    cursor: pointer;
 }
 .footer_line{
-    border: 1px solid #222;
+    border: 2px solid #2a7cc7;
     width: 80%;
     align-items: center;
     border-radius: 5px;
    align-items: center;
-   margin-bottom: 10px;
+   margin-bottom: 1rem;
    margin: 0 auto;
+   
 }
 
 .footer-text-h2{
@@ -99,10 +101,18 @@ margin-bottom: 15px;
     width: 8%;
 }
 .footer-icon-last{
-    color: #8c8c8e;
-    font-size: 2rem;
+    color: #2a7cc7;
+    border-radius: 50px;
+    margin-left: 1rem;
+    cursor: pointer;
 }
 
+.copyright{
+    background-color: #2a7cc7;
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+}
 
 
 

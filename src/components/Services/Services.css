@@ -1,0 +1,204 @@
+.service_p {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.service_text {
+  color: #007bff;
+}
+.service_img {
+  width: 100%;
+}
+/* Feture css start here */
+
+.feture_container {
+  padding: 1rem 5rem 3rem 5rem;
+}
+.feaure_heading {
+  text-align: center;
+  color: #007bff;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.feaure_top {
+  text-align: center;
+  color: #243e63;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.feture_para {
+  color: #7c8ba1;
+  text-align: center;
+}
+.feature_img {
+  width: 16%;
+}
+.feature_heading {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.feature_para {
+  padding-bottom: 3rem;
+  font-weight: 400;
+  font-size: 13px;
+}
+.feature {
+  padding-top: 5rem;
+}
+.feature_span {
+  color: #007bff;
+}
+/* Servrise Step section start here */
+.step_img {
+  width: 100%;
+}
+.step_heading {
+  color: #007bff;
+  text-align: center;
+  font-weight: 600;
+}
+.step_top {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 800;
+  color: #243e63;
+}
+.step_span {
+  color: #007bff;
+}
+.step_content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
+.step_1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #cbd5e0;
+  text-align: center;
+}
+.step_register {
+  color: #243e63;
+  font-weight: 500;
+  text-align: start;
+  font-size: 1.2rem;
+}
+.step_para {
+  color: #71819d;
+}
+.step_second {
+  padding-top: 5rem;
+}
+/* Prising Css start here */
+.prising_cont{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.price_heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.price_total {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.price_month {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #a5b9d0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #a5b9d0;
+}
+.price_card {
+  text-align: start;
+  padding: 2rem 1rem 3rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #00000041;
+  background-color: #fff;
+  /* margin: 1rem 0 0 1rem; */
+  cursor: pointer;
+
+}
+.price_para {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.price_form {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #a5b9d0;
+  padding-bottom: 1rem;
+}
+.price_para_one {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #a5b9d0;
+  padding-bottom: 1rem;
+}
+.price_downlod {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #a5b9d0;
+  padding-bottom: 1rem;
+}
+.price_basic {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #a5b9d0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #a5b9d0;
+   padding-bottom: 2rem;
+}
+.blue {
+  padding: 10px 30px;
+  text-align: center;
+  border: 1px solid #7e8686;
+  background-color: #47bdb5;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.red {
+  padding: 10px 30px;
+  text-align: center;
+  border: 1px solid #7e8686;
+  background-color: #f7fafc;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #007bff;
+}
+.white {
+  padding: 10px 30px;
+  text-align: center;
+  border: 1px solid #7e8686;
+  background-color: #f77777;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.pric_btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutCard.css";
 import AboutContent from "./AboutContent";
+
 function About() {
   const data = [
     {
@@ -8,28 +9,28 @@ function About() {
       cardPara:
         "Simple tax situations (basic 1040). Includes one free federal and one state return.",
       cardBtn: "File For Free",
-      cardAmount: "0$"
+      cardAmount: "0$",
     },
     {
       cardHeading: "Classic",
       cardPara:
-        "All forms, deductions, and credits. The best value for any tax situation",
+        "All forms, deductions, and credits. The best value for any tax situation and all returns",
       cardBtn: "Start For Free",
-      cardAmount: "30$"
+      cardAmount: "30$",
     },
     {
       cardHeading: "Premium",
       cardPara:
-        "Ask a Tax Pro and live chat, plus skip-the-line phone & email suppot.",
+        "Ask a Tax Pro and live chat, plus skip-the-line phone & email suppot.and all returns",
       cardBtn: "start For Free",
-      cardAmount: "50$"
+      cardAmount: "50$",
     },
     {
       cardHeading: "Self-Employed",
       cardPara:
-        "Personal and business income and expenses, 1099, and Schedule C.",
+        "Personal and business income and expenses, 1099, and Schedule C.and all returns",
       cardBtn: "start For Free",
-      cardAmount: "60$"
+      cardAmount: "60$",
     },
   ];
   return (
@@ -52,7 +53,7 @@ function About() {
           })}
         </div>
       </div>
-      <AboutContent/>
+      <AboutContent />
     </div>
   );
 }

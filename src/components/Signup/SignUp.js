@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Signup.css"
 import { useNavigate } from "react-router-dom";
+import Navbar from '../Navbar/Navbar';
 
 function SignupForm() {
   const navigate = useNavigate();
@@ -23,7 +24,8 @@ function SignupForm() {
 
   return (
     <>
-    <button className='back_button'  onClick={() => navigate('/')}>Back</button>
+    <Navbar/>
+    {/* <button className='back_button'  onClick={() => navigate('/')}>Back</button> */}
     <div className="container">
       <div className="signup-container">
         <h2>Sign Up</h2>
@@ -48,7 +50,7 @@ function SignupForm() {
             required
             />
           </label>
-          <button className='sign_buttton'>Sign Up</button>
+          <button className='sign_buttton' onClick={() => navigate('/dashboard')}>Sign Up</button>
           <button className='reg-button' onClick={() => navigate('/register')}>Register</button>
         </form>
       </div>

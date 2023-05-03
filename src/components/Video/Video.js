@@ -1,5 +1,5 @@
 import React from 'react'
-import tax from "../../assets/tax.mp4"
+import tax from "../../assets/taxpotral.mp4"
 import "./Video.css"
 function Video() {
   return (

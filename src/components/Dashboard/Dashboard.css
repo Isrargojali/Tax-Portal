@@ -1,0 +1,678 @@
+.dashboard_main {
+  background-color: #2a7cc74d;
+  padding: 0 3rem 7px;
+  height: 100%;
+}
+
+/* Dropdown */
+.dropdown-container {
+  position: relative;
+}
+
+.dd_btn {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-top: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ddd;
+}
+/* NAV */
+
+.dash_nav {
+  padding: 10px 3rem;
+  background-color: #bfd7ee;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.dash_search {
+  display: flex;
+  align-items: center;
+  background-color: #2a7cc7;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.search_icon {
+  display: flex;
+  align-items: center;
+}
+
+.search_icon img {
+  width: 20px;
+}
+
+.dash_search input {
+  background-color: #2a7cc7;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  padding: 15px 0;
+}
+
+.dash_search input:focus {
+  outline: none;
+}
+
+.dash_search input::placeholder {
+  color: #fff;
+}
+
+.dash_nav_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a7cc7;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.notification_icon {
+  width: 25px;
+}
+
+.profile_icon {
+  width: 30px;
+}
+
+.dropdown_icon {
+  width: 10px;
+}
+
+.dash_nav_btn span {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* Sidebar  */
+
+.sidebar_box {
+  border-radius: 10px;
+  background-color: #fff;
+  position: fixed;
+  width: 15rem;
+  height: 29rem;
+  top: 17%;
+}
+
+.inner_bar {
+  padding: 1rem 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.active {
+  background-color: #2a7cc7;
+  padding: 1rem 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+
+  color: #fff;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+  font-weight: 600;
+  align-self: flex-end;
+  margin-top: 8rem;
+  text-transform: capitalize;
+}
+
+/* Form  */
+
+.form_main {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  margin-top: 6.5rem;
+}
+
+.form_header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.form_heading h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.form_heading p {
+  text-align: end;
+  font-size: 0.8rem;
+}
+
+.form_date {
+  font-size: 2.4rem;
+}
+
+.form_box {
+  padding: 1rem 13px;
+  border: 1.2px solid rgba(183, 183, 183, 1);
+  margin: 0.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.form_box span {
+  font-size: 0.8rem;
+}
+
+.form_box input {
+  width: 20px;
+}
+
+.next_btn {
+  padding: 0.8rem 5rem;
+  border: none;
+  background-color: #2a7cc7;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.next_btn:hover {
+  background-color: #2a8ae4;
+  transition: 0.1s ease-in-out;
+}
+
+.center {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+/* Form side bar   */
+.form_inner_bar {
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.logout_sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 10px;
+  font-weight: 600;
+  align-self: flex-end;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* Tax Form Dashboard css start here */
+
+.outer_bg {
+  margin: 0 1rem;
+}
+
+.tax_form_main {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.tax_form_heading_main {
+  padding-top: 5.5rem;
+}
+
+.tax_heading {
+  padding: 8px 0;
+  background-color: #2a7cc7;
+  color: #fff;
+}
+
+.tax_header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tax_heading h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.tax_heading p {
+  text-align: end;
+  font-size: 0.6rem;
+}
+
+.tax_date {
+  font-size: 1.3rem;
+}
+
+.form_sidebar_main {
+  padding: 6rem 0 1.6rem;
+  position: fixed;
+}
+
+.form_sidebar_box {
+  background-color: #fff;
+  width: 18vw;
+  height: 100%;
+}
+
+.form_inner_bar {
+  border: 0.5px solid rgba(0, 0, 0, 0.28);
+  padding: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status_form_main {
+  padding-top: 5.7rem;
+  background-color: #fff;
+}
+
+.status_heading h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.status_heading p {
+  text-decoration: underline;
+  line-height: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+.status_form {
+  display: block;
+}
+
+.status_form label {
+  margin-bottom: 0;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.status_form input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.status_form input.no_input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 10%;
+}
+
+.staus_form_two {
+  padding-top: 1rem;
+}
+.form_two {
+  display: flex;
+  align-items: center;
+}
+
+.status_heading_blue {
+  color: #2a7cc7;
+  font-size: 3rem;
+}
+.radio_box {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  padding: 5px 0;
+}
+.radio_box input {
+  width: 5%;
+  height: 4vh;
+}
+.radio_box label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+/* didital css start here */
+.digital_heading {
+  text-align: start;
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
+}
+.digital_heading h1 {
+  padding-bottom: 1rem;
+}
+.digital_heading_blue {
+  font-size: 1rem;
+  font-weight: 410;
+}
+.didital_para {
+  background-color: #2a7cc7;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.digital_grid {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+.digital_grid label {
+  padding-top: 15px;
+}
+/* standard form start css  */
+.standard_heading_blue {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 410;
+}
+.stand_p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+/* dependet form start css  */
+.dependet_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.depend_box {
+  margin-top: 5px;
+  width: 5%;
+  height: 4vh;
+}
+.depend_tabel input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+table tr th {
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+}
+.tabel_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+}
+.depend_tabel_last input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.depend_tabel_last tr th {
+  font-size: 0.9rem;
+  text-align: start;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+/* income form start css  */
+.income_grid {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.income_grid h3 {
+  text-align: center;
+  color: #2a7cc7;
+}
+.income_text {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+.income_text label {
+  text-align: start;
+  font-size: 1.3rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding: 0;
+}
+.income_text input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 80%;
+}
+.income_three_container label {
+  text-align: start;
+  font-size: 1rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding: 0;
+}
+.income_three_container input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}
+/* tax form start css  */
+
+.tax_three_container {
+  gap: 20px;
+}
+.tax_three_container input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}
+/* payment form start css  */
+.payment_p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2a7cc7;
+  padding-top: 1rem;
+}
+.payment_container input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 50%;
+}
+.payment_container label {
+  text-align: start;
+  font-size: 1rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding-left: 1em;
+}
+.payment_text label {
+  text-align: start;
+  font-size: 1.2rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding: 0;
+}
+.payment_text input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 80%;
+}
+/* refund form start css  */
+.refund_cont {
+  gap: 20px;
+}
+.refund_cont label {
+  text-align: start;
+  font-size: 1rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding: 0;
+}
+
+.refund_cont input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}
+.third_form_one_button {
+  padding: 6px 50px;
+  margin: 1rem;
+  color: #2a7cc7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #2a7cc7;
+  transition: 0.5s;
+}
+.third_form_one_button:hover {
+  background-color: #2a7cc7;
+  color: #fff;
+}
+.third_form_P {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.third_form_container input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}
+.third_form_container label {
+  text-align: start;
+  font-size: 1rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding-left: 1em;
+}
+.sign_heading_blue {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.digital_heading_para {
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* form_sign form start css  */
+
+.form_sign_color label {
+  text-align: start;
+  font-size: 1.1rem;
+  color: #2a7cc7;
+  font-weight: 500;
+  padding: 0;
+  margin-top: 1rem;
+}
+.form_sign_color input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 60%;
+  margin-top: 1.5rem;
+}
+.sing_form_line {
+  background-color: #2a7cc7;
+  height: 4px;
+  border: none;
+}
+/* paid form start css  */
+
+.paid_container {
+  border: 1px solid #cacaca;
+  padding: 0.8rem;
+}
+.paid_container label {
+  color: #2a7cc7;
+  padding: 0;
+}
+.paid_container input {
+  border: 2px solid #2a7cc7;
+  border-radius: 3px;
+  padding: 10px;
+  width: 70%;
+}
+.paid_chkbox label {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.padi_container_three {
+  gap: 10px;
+}
+.padi_container_three input {
+  border: 2px solid #2a7cc7;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}
+.paid_button {
+  padding: 5px 30px;
+  border: none;
+  background-color: #2a7cc7;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.paid_btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}

@@ -1,0 +1,131 @@
+.about_container {
+  padding-top: 8.5rem;
+}
+.about_p {
+  color: #2a7cc7;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.about_h1 {
+  color: #243e63;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.about_img_one {
+  width: 100%;
+  border-radius: 5px;
+}
+.about_p_two {
+  color: #2a7cc7;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.about_h1_two {
+  color: #243e63;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.about_two {
+  text-align: center;
+  color: #8c8ba1;
+}
+.para_about {
+  color: #8c8ba1;
+}
+.conatine_one {
+  padding-bottom: 8rem;
+}
+.conatine_two {
+  padding-bottom: 8rem;
+}
+
+/* AboutTeam css start here */
+.ourvalue_heading {
+  color: #2a7cc7;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.ourvalue_top {
+  color: #243e63;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.value_text {
+  padding-bottom: 5rem;
+  font-weight: 500;
+  color: #8c8ba1;
+}
+.valuecard_para {
+  color: #4f5e72;
+  padding-top: 0.19rem;
+}
+.value_h3 {
+  padding-top: 0.1rem;
+  color: #243e63;
+}
+.value_img {
+  background-color: #f7fafc;
+  border-radius: 50px;
+  padding: 1rem;
+  cursor: pointer;
+}
+/* AboutTeam css start here */
+/* .about_team_section{
+  width: 100%;
+  min-height: 100vh;
+} */
+.team_heading{
+  color: #2a7cc7;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.team_top{
+  color: #243e63;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.team_para{
+  margin-bottom: 5rem;
+  color: #8c8ba1;
+  font-weight: 500;
+
+}
+.about_team_section{
+  padding-top: 5rem;
+}
+.team_img{
+  width: 100%;
+  border-radius: 10px;
+}
+.team_founder{
+  color: #2a7cc7;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.team_name{
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 2rem;
+
+}
+.team_icon_top{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.team_icon{
+  color: #4f5e72;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.team_icon:hover{
+  color: #2a7cc7;
+}

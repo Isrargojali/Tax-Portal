@@ -12,13 +12,14 @@
 }
 .about_card {
   text-align: start;
-  width: 15rem;
+  width: 16rem;
   padding: 2rem 1rem 3rem;
   border-radius: 5px;
   box-shadow: 10px 5px 10px 10px #00000041;
   background-color: #fff;
   margin: 1rem 0 0 1rem;
   cursor: pointer;
+  border: 1px solid black;
 }
 
 .about_card:hover {
@@ -57,6 +58,16 @@
 }
 .dollar{
   padding-top: 1rem;
+}
+
+.about_img {
+    width: 16%;
+}
+@media screen and (max-width:511px){
+  .about_card {
+    width: 20rem;
+    
+  }
 }
 /* About content section css start here */
 .content-container{

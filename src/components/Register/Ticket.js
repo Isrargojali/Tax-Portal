@@ -25,7 +25,7 @@ function Form() {
    <button className='form-button' onClick={() => navigate('/signup')}>Back</button>
     <form className="form" onSubmit={handleSubmit}>
       <div className='first_form'>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="firstName">First Name</label>
         <input
         className='text_area'
@@ -36,7 +36,7 @@ function Form() {
           onChange={(event) => setFirstName(event.target.value)}
         />
       </div>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="firstName">Middle Name</label>
         <input
          className='text_area'
@@ -47,7 +47,7 @@ function Form() {
           onChange={(event) => setMiddleName(event.target.value)}
           />
       </div>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="firstName">Last Name</label>
         <input
          className='text_area'
@@ -60,7 +60,7 @@ function Form() {
       </div>
       </div>
       <div className='sec_group'>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="phoneNumber">Phone Number</label>
         <input
         className='sec_text'
@@ -71,7 +71,7 @@ function Form() {
           onChange={(event) => setPhoneNumber(event.target.value)}
           />
       </div>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="mobileNumber">Mobile Number</label>
         <input
          className='sec_text'
@@ -84,7 +84,7 @@ function Form() {
       </div>
       </div>
       <div className='third_group'>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="email">Enter Email</label>
         <input
         className='third_text'
@@ -95,7 +95,7 @@ function Form() {
           onChange={(event) => setEmail(event.target.value)}
         />
       </div>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="confirmEmail">Confirm Your Email</label>
         <input
            className='third_text'
@@ -108,7 +108,7 @@ function Form() {
       </div>
       </div>
       <div className='fourth_group'>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="password">Create Password</label>
         <input
         className='fourth_text'
@@ -119,7 +119,7 @@ function Form() {
           onChange={(event) => setPassword(event.target.value)}
           />
       </div>
-      <div className="form-group">
+      <div className="register-form">
         <label htmlFor="createPassword">Confirm Password</label>
         <input
          className='fourth_text'

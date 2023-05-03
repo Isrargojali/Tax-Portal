@@ -1,0 +1,61 @@
+
+.accordian {
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+.accordian_typo {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+.faqs {
+  color: #2a7cc7 !important;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.faqs_text {
+  color: #243e63;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.faqs_span {
+  color: #2a7cc7;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.faq_para {
+  font-style: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  color:#7c8ba1;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 8px 16px 16px;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:first-of-type {
+  margin-top: 0;
+
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+  /* border-top-left-radius: 4px;
+  border-top-right-radius: 4px;  */
+  border-radius: 5px;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    position: absolute;
+    left: 0;
+    top: -1px;
+    right: 0;
+    height: 1px;
+    content: "";
+    opacity: 1;
+    /* background-color: rgba(0, 0, 0, 0.12); */
+    -webkit-transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

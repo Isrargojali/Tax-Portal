@@ -48,7 +48,21 @@ function Carousel() {
         }
       },
       {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+        }
+      },
+      {
         breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -58,7 +72,7 @@ function Carousel() {
   };
   return (
     <div className="slick-container">
-      <h2 className="slick_top">See for yourself why we're
+      <h2 className="slick_top">See for yourself why we're <br/>
 trusted by millions</h2>
 <p className="slick_top_para">We've been helping people slay their taxes for over 50 years</p>
       <Slider {...settings}>
